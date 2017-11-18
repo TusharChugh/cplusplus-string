@@ -1,7 +1,7 @@
 # String class similar to std::string
 
 
-[![Build Status](https://travis-ci.org/TusharChugh/cplusplus-string.svg?branch=master)](http://travis-ci.org/TusharChugh/cplusplus-string) [![codecov](https://codecov.io/gh/TusharChugh/cplusplus-string/branch/master/graph/badge.svg)](https://codecov.io/gh/TusharChugh/cplusplus-string)
+[![Build Status](https://travis-ci.org/TusharChugh/cplusplus-string.svg?branch=master)](http://travis-ci.org/TusharChugh/cplusplus-string) [![codecov](https://codecov.io/gh/TusharChugh/cplusplus-string/branch/master/graph/badge.svg)](https://codecov.io/gh/TusharChugh/cplusplus-string) [![Coverage Status](https://coveralls.io/repos/github/TusharChugh/cplusplus-string/badge.svg?branch=master)](https://coveralls.io/github/TusharChugh/cplusplus-string?branch=master)
 
 
 ## Key points | Thoughts for the design of tlib::tstring
