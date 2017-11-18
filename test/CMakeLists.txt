@@ -14,7 +14,7 @@ enable_testing()
 
 file(GLOB TEST_FILES ${PROJECT_SOURCE_DIR}/test/tstring/*.cpp)
 
-add_executable(unittest_string  unit_tests.cpp ${TEST_FILES)
+add_executable(unittest_string  unit_tests.cpp ${TEST_FILES})
 target_link_libraries(unittest_string ${GTEST_LIBRARIES} tstring pthread)
 
 include(CodeCoverage)
