@@ -32,6 +32,10 @@ before_install:
   - sudo apt-get update -qq
   - export CMAKE_OPTIONS=${CMAKE_OPTIONS}" "${ENV_CMAKE_OPTIONS}
   - export CXX_FLAGS=${CXX_FLAGS}" "${ENV_CXX_FLAGS}
+  - chmod +x build.sh
+  - cd /usr/src/gtest
+  - sudo cmake CMakeLists.txt
+  - sudo make 
 
 install:
     - sudo pip install codecov
