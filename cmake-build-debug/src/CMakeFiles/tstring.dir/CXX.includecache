@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/tstring/tstring.h
+cstring
+-
+cstddef
+-
+ostream
+-
+iterator
+-
+
+/home/fzff9p/cplusplus_explore/libraries/string/src/tstring/tstring.cpp
+tstring/tstring.h
+-
+utility
+-
+

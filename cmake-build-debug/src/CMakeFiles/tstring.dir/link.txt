@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtstring.a  CMakeFiles/tstring.dir/tstring/tstring.cpp.o
+/usr/bin/ranlib libtstring.a
