@@ -1,5 +1,8 @@
 # String class similar to std::string
 
+
+[![Build Status](https://travis-ci.org/TusharChugh/cplusplus-string.svg?branch=master)](http://travis-ci.org/TusharChugh/cplusplus-string)
+
 ## Key points | Thoughts for the design of tlib::tstring
 ### 1. Rule of big three (and a half)
 If we have to manage resources like char pointer in this lib - we need to create our own copy constructor, destructor and an assignment operator. For assignment operator we need a swap function (that's why three and a half).
