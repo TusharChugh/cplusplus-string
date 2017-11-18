@@ -15,3 +15,14 @@ set(SOURCE_FILES unit_tests.cpp tstring/create_string.cpp tstring/copy_swap.cpp 
 
 add_executable(unittest_string ${SOURCE_FILES})
 target_link_libraries(unittest_string ${GTEST_LIBRARIES} tstring pthread)
+
+
+set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/.travis/cmake)
+
+
+include(CodeCoverage)
+setup_target_for_coverage(tstring_coverage unittest_string coverage)
+
+SET(CMAKE_CXX_FLAGS "-g -O0 -fprofile-arcs -ftest-coverage")
+SET(CMAKE_C_FLAGS "-g -O0 -fprofile-arcs -ftest-coverage")
+
